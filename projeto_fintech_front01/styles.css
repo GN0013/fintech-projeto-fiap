@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.list-group-item {
+    border: none; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+}
+
+
+footer {
+    font-size: 1.2rem;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+
+footer .add-icon {
+    cursor: pointer; 
+    transition: transform 0.2s ease; 
+    color: white; 
+    user-select: none; 
+}
+
+
+footer .add-icon:hover {
+    transform: scale(1.2);
+}
